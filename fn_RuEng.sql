@@ -24,5 +24,5 @@ create function dbo.fn_RuEng
 GO
 
 -- Check it work
-declare	@RuEng nvarchar(4000) = N'One=Один, Two=Два, Three=Три'
+declare	@RuEng nvarchar(4000) = N'One=РћРґРёРЅ, Two=Р”РІР°, Three=РўСЂРё'
 select * from dbo.fn_RuEng(@RuEng) as re
